@@ -21,8 +21,15 @@ public class Todos
     private String createdDate;
     private Integer userspecifictodoid;
     private String updatedDate;
+    private String userName;
 
 
+    public String getUserName() {
+        return userName;
+    }
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
     public String getUpdatedDate() {
         return updatedDate;
     }
